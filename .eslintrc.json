@@ -8,8 +8,7 @@
     "parserOptions": {
         "ecmaVersion": 7,
         "ecmaFeatures": {
-            "experimentalObjectRestSpread": true,
-            "jsx": true
+            "experimentalObjectRestSpread": true
         },
         "sourceType": "module"
     },
@@ -53,14 +52,14 @@
         ],
         "quotes": [
             "warn",
-            "double",
+            "single",
             {
                 "allowTemplateLiterals": true
             }
         ],
         "semi": [
             "warn",
-            "always"
+            "never"
         ],
         "no-extra-semi": "warn",
         "comma-dangle": [
