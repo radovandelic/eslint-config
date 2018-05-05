@@ -35,9 +35,11 @@
         "max-len": [
             "warn",
             {
-                "code": 120
+                "code": 120,
+                "ignoreRegExpLiterals": true
             }
         ],
+        "no-extra-parens": "warn",
         "brace-style": [
             "warn",
             "1tbs",
@@ -70,6 +72,15 @@
             {
                 "max": 1
             }
+        ],
+        "space-in-parens": "warn",
+        "array-bracket-spacing": [
+            "warn",
+            "always"
+        ],
+        "object-curly-spacing": [
+            "warn",
+            "always"
         ],
         "spaced-comment": [
             "warn",
