@@ -1,0 +1,2 @@
+npm install --save-dev eslint@latest eslint-config-react-app@latest eslint-plugin-flowtype@latest eslint-plugin-import@latest eslint-plugin-jsx-a11y@5.1.1 eslint-plugin-react@latest
+rm install-eslint.sh
